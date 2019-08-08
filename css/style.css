@@ -6,3 +6,11 @@ background-image: url("https://media.giphy.com/media/3eTTvDcPGERe13tUXg/source.m
 html, header{
 color:gold:
 }
+
+.carousel-item {
+  height:300px;
+}
+.carousel-item-1 {
+  background: url('../Images/sunlightdubai.jpg') no-repeat;
+  background-size: cover;
+}
