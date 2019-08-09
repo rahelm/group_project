@@ -2,3 +2,24 @@
   background-color: yellow;
   color: red;
 }
+
+.carousel-item {
+  height:300px;
+}
+.carousel-item-1 {
+  background: url('../Images/sunlightdubai.jpg') no-repeat;
+  background-size: cover;
+}
+
+.carousel-item3 {
+  height:300px
+}
+.carousel-item3 {
+  background-color: url('../Images/wow.jpg')
+}
+.carousel-item4 {
+  height:300px
+}
+.carousel-item4 {
+  background-color: url('../Images/sunlightdubai.jpg')
+}
