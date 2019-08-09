@@ -104,8 +104,87 @@
               <img class="d-block w-100" src="./Images/tall.jpg" alt="Third slide">
             </div>
           </div>
+        </div
         </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          $('#myPopover').on('hidden.bs.popover', function () {
+      //says omething...
+    })
+  </div>
+  <div>
+    <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+
+  <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="What type of holiday?" data-content="Dubai is a holiday destination that caters for all.Choose which type of holiday you want to find the perfect holiday package for you, wheter it's a family holiday or a couples get away!">Click to toggle popover</button>    ================================================= -->
+
+  <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+    <!-- Position it -->
+    <div style="position: absolute; top: 0; right: 0;">
+
+      <!-- Then put toasts within -->
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded mr-2" alt="...">
+          <strong class="mr-auto">Dubai Travel</strong>
+          <small class="text-muted">just now</small>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="toast-body">
+          Kids eat free at selected resturant in Dubai with our discount code, when purchase with us!
+        </div>
+<<<<<<< Updated upstream
         </main><!-- /.container -->
+=======
+      </div>
+
+      <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+          <img src="..." class="rounded mr-2" alt="...">
+          <strong class="mr-auto">Dubai Travel</strong>
+          <small class="text-muted">2 seconds ago</small>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="toast-body">
+          20% off Dubai Water Park,when you purchase with us!
+        </div>
+      </div>
+    </div>
+  </div>
+
+>>>>>>> Stashed changes
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
