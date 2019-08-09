@@ -1,21 +1,14 @@
-html, body{
-font-family: 'Exo', sans-serif;
-background-image: url("https://media.giphy.com/media/3eTTvDcPGERe13tUXg/source.mp4");
-}
 
-html, header{
-color:gold:
-}
 
-.carousel-item {
+/* .carousel-item {
   height:300px;
 }
 .carousel-item-1 {
   background: url('../Images/sunlightdubai.jpg') no-repeat;
   background-size: cover;
-}
+} */
 
-.carousel-item3 {
+/* .carousel-item3 {
   height:300px
 }
 .carousel-item3 {
@@ -26,4 +19,4 @@ color:gold:
 }
 .carousel-item4 {
   background-color: url('../Images/sunlightdubai.jpg')
-}
+} */
